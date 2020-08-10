@@ -7,6 +7,12 @@
     <groupId>com.finra</groupId>
     <artifactId>finra-gateway</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>search-service</module>
+        <module>config-server</module>
+        <module>eureka-server</module>
+        <module>zuul-server</module>
+    </modules>
+    <packaging>pom</packaging>
 
 </project>
